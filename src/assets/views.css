@@ -1,0 +1,65 @@
+main {   
+    padding: 0.1rem 1rem;
+   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+   margin: 2rem 1rem;
+}
+
+p {
+    font-weight: 400; 
+    font-size: 13px;
+    line-height: 2.0;
+}
+
+h2 {
+    text-align: center;
+}
+
+ul {
+    list-style-type: circle;
+    margin-top: -18px;
+}
+
+a {
+    text-decoration: none;
+     color: #111010;
+}
+
+ @media screen and (min-width: 700px) {
+    main{
+        margin-top: 5rem;
+        padding: 0.1rem 2rem;
+    }
+
+    p {
+     
+    font-size: 15px;
+    line-height: 1.7;
+    }
+
+    .heading {
+        margin-top: 3rem;
+    }
+}
+
+ @media screen and (min-width: 980px) {
+
+    main{
+      width: 55vw;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+
+    h3 {
+        font-size: 1.5rem;
+    }
+
+    h4 {
+        font-size: 1.2rem;
+    }
+
+  }
