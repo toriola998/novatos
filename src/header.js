@@ -1,7 +1,7 @@
 function navBar(){
 const menu = document.querySelector('.menu');
 const links = document.querySelector('.links');
-const closeIcon = document.querySelector('.close-menu')
+/*const closeIcon = document.querySelector('.close-menu')**/
 
 /**Toggle to menu hamburger */
 menu.addEventListener('click', function(){
