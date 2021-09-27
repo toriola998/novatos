@@ -92,7 +92,7 @@ a {
   }
   
   li a{
-    font-weight: 600;
+    font-weight: 500;
     color: #111010;
     font-size: 14px;
   }
@@ -109,7 +109,7 @@ a {
     z-index: 99999999999999;
     height: 100vh;
     width: 70vw;
-    background-color: #e4e4e4;
+     background-color: #e4e4e4;
     position: absolute;
     top: 0;
   }
