@@ -368,7 +368,7 @@ export default {
      footer{
         background-color: #e4e4e4;
         color: #111010;
-        padding: 0.2rem 0 2rem 1rem;
+        padding: 0.2rem 0 3rem 1rem;
         margin-bottom: 0;
     }
 

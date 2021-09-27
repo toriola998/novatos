@@ -54,6 +54,10 @@
        padding-top: 0;
    }
 
+   #footer{
+       margin: 1rem;
+   }
+
 
     #footer p, #footer a{
         font-size: 13px;
