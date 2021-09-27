@@ -238,7 +238,7 @@ export default {
     
     h1 {  
         font-weight: 600;
-        font-size: 1.7rem;
+        font-size: 1.9rem;
     }
 
     #home {

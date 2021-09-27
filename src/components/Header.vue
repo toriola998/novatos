@@ -63,7 +63,7 @@ a {
     color:#e63a18;
    /**padding: 0.5rem 1rem;**/
    margin: auto 1rem;
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
   
   .menu {
@@ -74,7 +74,7 @@ a {
     width: 25px;
     height: 25px;
     z-index: 9;
-    margin-top: 0.4rem;
+    margin-top: 0.2rem;
   }
   
    .close-menu {

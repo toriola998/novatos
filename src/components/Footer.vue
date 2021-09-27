@@ -35,7 +35,7 @@
     #logo{
         font-family: 'Stick No Bills', sans-serif;
         color:#e63a18;
-        font-size: 2rem;
+        font-size: 1.5rem;
         margin-bottom: 0;
     }
 
