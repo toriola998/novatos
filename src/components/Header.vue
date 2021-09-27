@@ -88,7 +88,7 @@ a {
   
   ul{
     list-style-type: none; 
-    padding: 11rem 0 0 5rem;   
+    padding: 11rem 0 0 3rem;   
   }
   
   li a{
@@ -118,17 +118,6 @@ a {
     height: 10vw;
   }
 
-  .open-source {
-    border: 2px solid #e63a18;
-    padding: 0.4rem;
-    border-radius: 5px;
-  }
-
-  .open-source:hover {
-    color: #fff;
-    background-color: #e63a18 ;
-  }
-  
   @media screen and (min-width: 700px) {
     .menu{
       display: none;
@@ -147,6 +136,17 @@ a {
   
     li{
       margin: 0 1rem;
+    }
+
+    .open-source {
+    border: 2px solid #e63a18;
+    padding: 0.4rem;
+    border-radius: 5px;
+    }
+
+    .open-source:hover {
+    color: #fff;
+    background-color: #e63a18 ;
     }
   }
 </style>
