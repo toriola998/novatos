@@ -13,6 +13,7 @@ import Mobile from './../views/Mobile.vue'
 import ProductManagement from './../views/ProductManagement.vue'
 import SoftwareTesters from './../views/SoftwareTesters.vue'
 import UIUX from './../views/UIUX.vue'
+import OpenSource from './../views/OpenSource.vue'
 
 Vue.use(Router)
 
@@ -95,6 +96,12 @@ export default new Router({
             name: 'UI-UX',
             path: '/ui-ux-design',
             component: UIUX ,
+        },
+
+        {
+            name: 'open-source',
+            path: '/open-source',
+            component: OpenSource ,
         },
         
 

@@ -225,11 +225,6 @@ export default {
         background-color: #e4e4e4;
     }
 
-    a {
-        text-decoration: none;
-        cursor: pointer;
-    }
-
     #home-page{
        height: 100vh;
        width: 100%;

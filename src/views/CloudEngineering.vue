@@ -1,6 +1,6 @@
 <template>
     <div>
-        <Header/>
+        <ViewsHeader/>
         <main>
             <article>
                 <h2>Cloud Engineering</h2>
@@ -50,11 +50,11 @@
 </template>
 
 <script>
-import Header from './../components/Header.vue'
+import ViewsHeader from './../components/ViewsHeader.vue'
 export default {
   name: 'Cloud-Engineering',
   components: {
-    Header
+    ViewsHeader
   }
 }
 </script>

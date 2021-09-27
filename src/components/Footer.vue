@@ -21,7 +21,7 @@
         </div>
         
         <div id="footer-links">
-            <a>Open source</a>
+            <router-link to="/open-source">Open source</router-link>
             <a>Support</a>
             <a>About</a>
         </div>

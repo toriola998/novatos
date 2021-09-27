@@ -22,6 +22,10 @@
           <li>
             <a href="#articles" class="nav-link">Articles</a>
           </li>
+
+          <li>
+            <router-link to="/open-source" class="nav-link open-source">Open source</router-link>
+          </li>
         </ul>
       </div>
   </div>
@@ -84,7 +88,7 @@ a {
   
   ul{
     list-style-type: none; 
-    padding: 6rem 0 0 3rem;   
+    padding: 11rem 0 0 5rem;   
   }
   
   li a{
@@ -104,13 +108,25 @@ a {
   .show-links {
     z-index: 99999999999999;
     height: 100vh;
-    width: 100vw;
+    width: 70vw;
     background-color: #e4e4e4;
     position: absolute;
+    top: 0;
   }
   
   header{
     height: 10vw;
+  }
+
+  .open-source {
+    border: 2px solid #e63a18;
+    padding: 0.4rem;
+    border-radius: 5px;
+  }
+
+  .open-source:hover {
+    color: #fff;
+    background-color: #e63a18 ;
   }
   
   @media screen and (min-width: 700px) {
@@ -125,7 +141,7 @@ a {
     ul{
       display: flex;
       justify-content: end;
-      padding: 0 6rem 0 0;
+      padding: 0 4rem 0 0;
       margin-top: -2rem;
     }
   

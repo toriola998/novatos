@@ -1,6 +1,6 @@
 <template>
     <div>
-        <Header/>
+        <ViewsHeader/>
         <main>
             <article>
                 <h2>Frontend development</h2>
@@ -50,11 +50,11 @@
 </template>
 
 <script>
-import Header from './../components/Header.vue'
+import ViewsHeader from './../components/ViewsHeader.vue'
 export default {
   name: 'Frontend-development',
   components: {
-    Header
+    ViewsHeader
   }
 }
 </script>

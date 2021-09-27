@@ -26,5 +26,9 @@ export default {
   box-sizing: border-box;
 }
 
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
 
 </style>
