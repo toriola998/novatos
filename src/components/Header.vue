@@ -88,11 +88,11 @@ a {
   
   ul{
     list-style-type: none; 
-    padding: 11rem 0 0 3rem;   
+    padding: 14rem 0 0 3rem;   
   }
   
   li a{
-    font-weight: 500;
+    font-weight: 600;
     color: #111010;
     font-size: 14px;
   }

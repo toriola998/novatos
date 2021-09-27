@@ -54,6 +54,7 @@
        padding-top: 0;
    }
 
+
     #footer p, #footer a{
         font-size: 13px;
     }

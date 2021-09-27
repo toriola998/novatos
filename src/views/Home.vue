@@ -242,13 +242,12 @@ export default {
     }
 
     #home {
-        margin: 7rem 1rem;
+        margin: 10rem 1rem;
     }
 
     #description>p{
         font-weight: 400; 
-        font-size: 12px;
-        line-height: 1.5;
+        font-size: 13px;
         margin-top: -0.8rem;
     }
 
@@ -258,7 +257,7 @@ export default {
         border: none;
         padding: 0.5rem 1rem ;
         margin-top: 0.8rem;
-        font-size: 13px;
+        font-size: 14px;
         font-weight: 600;
         cursor: pointer;
     }
@@ -274,7 +273,7 @@ export default {
     }
 
     .box{
-        width: 85vw;
+        width: 67vw;
         height: 165px;
         border-radius: 10px;
         margin: 2rem auto;
@@ -283,6 +282,10 @@ export default {
         color: #111010;
         cursor: pointer;
         position: relative;
+    }
+
+    .box>p {
+        line-height: 1.5;
     }
 
     .flex-item{
@@ -308,7 +311,7 @@ export default {
     }
 
     .box>p, #about-p {
-        font-size: 11px;
+        font-size: 13px;
         font-weight: 500;
     }
 
@@ -345,7 +348,7 @@ export default {
 
     .article-box {
         color: #fff;
-        width: 85vw;
+        width: 65vw;
         height: 130px;
         border-radius: 10px;
         margin: 2rem auto;
@@ -365,7 +368,7 @@ export default {
      footer{
         background-color: #e4e4e4;
         color: #111010;
-        padding: 0 0 1rem 1rem;
+        padding: 0.2rem 0 2rem 1rem;
         margin-bottom: 0;
     }
 
@@ -419,7 +422,7 @@ export default {
 
     .box{
         height: 180px;
-        width: 32vw;
+        width: 30vw;
     }
     
     .box, .article-box{
@@ -432,7 +435,7 @@ export default {
     }
 
     .box>p, #about>p, #description>p{
-        font-size: 13px;
+        font-size: 14px;
     }
         
     #box-header{
