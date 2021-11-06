@@ -1,36 +1,25 @@
 <template>
-  <div id="header">
-    <div class="flex-item">
-      <router-link to="/"><h4 id="logo">novatos</h4></router-link>
-      <img src="./../assets/icons/menu.svg" class="menu" />
+    <div id="header">
+        <div class="flex-item">
+            <router-link to="/"><h4 id="logo">novatos</h4></router-link>
+            <img src="./../assets/icons/menu.svg" class="menu" />
+        </div>
+
+        <div class="links">
+            <div>
+                <img src="./../assets/icons/close-icon.svg" class="close-menu"/>
+                    <ul>
+                        <li><a href="/" class="nav-link">Home</a></li>
+                        <li><a href="#boxes" class="nav-link">Careers</a></li>
+                        <li><a href="#about" class="nav-link">About</a></li>
+                        <li><a href="#articles" class="nav-link">Articles</a></li>
+                        <li>
+                            <router-link to="/open-source" class="nav-link open-source">Open source</router-link>
+                        </li>
+                    </ul>
+            </div>
+        </div>
     </div>
-
-    <div class="links">
-      <!--<img src="close-menu.svg" class="close-menu"/>-->
-      <ul>
-        <li>
-          <a href="/" class="nav-link">Home</a>
-        </li>
-        <li>
-          <a href="#boxes" class="nav-link">Careers</a>
-        </li>
-
-        <li>
-          <a href="#about" class="nav-link">About</a>
-        </li>
-
-        <li>
-          <a href="#articles" class="nav-link">Articles</a>
-        </li>
-
-        <li>
-          <router-link to="/open-source" class="nav-link open-source"
-            >Open source</router-link
-          >
-        </li>
-      </ul>
-    </div>
-  </div>
 </template>
 
 <script>
@@ -63,15 +52,12 @@ a {
 #logo {
   font-family: "Stick No Bills", sans-serif;
   color: #e63a18;
-  /**padding: 0.5rem 1rem;**/
   margin: auto 1rem;
-  font-size: 1.5rem;
+  font-size: 2rem;
 }
 
 .menu {
   position: absolute;
-  /*bottom: 0;
-    top: 30px;*/
   right: 40px;
   width: 25px;
   height: 25px;
@@ -80,7 +66,13 @@ a {
 }
 
 .close-menu {
-  margin-right: 0;
+  position: absolute;
+  right: 2rem;
+  top: 3rem;
+}
+
+.links > div {
+  position: relative;
 }
 
 .links {
