@@ -83,19 +83,26 @@ a {
   margin-right: 0;
 }
 
-.links {
-  overflow: hidden;
-  height: 100vh;
-  width: 70vw;
-  background-color: #e4e4e4;
-  position: absolute;
-  z-index: 10;
-  transition: 0.5s transform ease;
-  top: 0;
-  left: 0;
-  transform: translateX(-100vw);
+.close-menu {
+  margin-right: 0;
 }
-
+@media (min-width: 700px) {
+  .links {
+    overflow: hidden;
+    height: 100vh;
+    width: 70vw;
+    background-color: #e4e4e4;
+    position: absolute;
+    z-index: 10;
+    transition: 0.5s transform ease;
+    top: 0;
+    left: 0;
+    transform: translateX(-100vw);
+  }
+  .show-links {
+    transform: translateX(0);
+  }
+}
 ul {
   list-style-type: none;
   padding: 14rem 0 0 3rem;
@@ -115,10 +122,6 @@ li > a:hover {
   border-bottom: 2px solid #e63a18;
 }
 
-.show-links {
-  transform: translateX(0);
-}
-
 header {
   height: 10vw;
 }
@@ -131,7 +134,9 @@ header {
   .links {
     overflow: visible;
   }
-
+  .close-menu {
+    display: none;
+  }
   ul {
     display: flex;
     justify-content: end;
