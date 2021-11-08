@@ -239,7 +239,7 @@ export default {
     ::-webkit-scrollbar-thumb:hover {
     background: #e63a18; 
     }
-    
+
     header {
         height: 5rem;
         background-color: #e4e4e4;

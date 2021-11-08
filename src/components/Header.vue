@@ -8,6 +8,7 @@
         <div class="links">
             <div>
                 <img src="./../assets/icons/close-icon.svg" class="close-menu"/>
+                <div class="nav-div">
                     <ul>
                         <li><a href="/" class="nav-link">Home</a></li>
                         <li><a href="#boxes" class="nav-link">Careers</a></li>
@@ -17,6 +18,7 @@
                             <router-link to="/open-source" class="nav-link open-source">Open source</router-link>
                         </li>
                     </ul>
+                </div>
             </div>
         </div>
     </div>
@@ -68,7 +70,7 @@ a {
 .close-menu {
   position: absolute;
   right: 1rem;
-  top: 2rem;
+  top: 1rem
 }
 
 .links > div {
@@ -78,9 +80,9 @@ a {
 .links {
   overflow: hidden;
   height: 100vh;
-  width: 70vw;
-  background-color: #f4f4f4;
-  position: absolute;
+  width: 60vw;
+  background-color: #e1e1e1;
+  position: fixed;
   z-index: 10;
   transition: 0.5s transform ease;
   top: 0;
@@ -88,9 +90,15 @@ a {
   transform: translateX(-100vw);
 }
 
+.nav-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 ul {
   list-style-type: none;
-  padding: 14rem 0 0 3rem;
+  padding: 14rem 0 0 0;
 }
 
 li a {
