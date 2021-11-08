@@ -220,6 +220,26 @@ export default {
 </script>
 
 <style scoped>
+    /* width */
+    ::-webkit-scrollbar {
+    width: 8px;
+    }
+
+    /* Track */
+    ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+    }
+    
+    /* Handle */
+    ::-webkit-scrollbar-thumb {
+    background: #e63a18; 
+    }
+
+    /* Handle on hover */
+    ::-webkit-scrollbar-thumb:hover {
+    background: #e63a18; 
+    }
+    
     header {
         height: 5rem;
         background-color: #e4e4e4;

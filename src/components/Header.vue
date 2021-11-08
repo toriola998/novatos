@@ -67,8 +67,8 @@ a {
 
 .close-menu {
   position: absolute;
-  right: 2rem;
-  top: 3rem;
+  right: 1rem;
+  top: 2rem;
 }
 
 .links > div {
@@ -79,7 +79,7 @@ a {
   overflow: hidden;
   height: 100vh;
   width: 70vw;
-  background-color: #e4e4e4;
+  background-color: #f4f4f4;
   position: absolute;
   z-index: 10;
   transition: 0.5s transform ease;
