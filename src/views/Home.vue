@@ -11,7 +11,7 @@
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
                         sed do eiusmod tempor incididunt ut labore et 
                         aliqua. Ut enim ad minim veniam, quis nostrud exercitatio</p>
-                        <button>Get Started</button>
+                        <a href="#boxes"><button>Get Started</button></a>
                     </div>
                     <img src="./../assets/illustrations/home.svg" id="home-3d"/>
                 </div>
@@ -397,16 +397,12 @@ export default {
         display: flex;
         justify-content: center;
         align-items: center; 
-        /*position: relative;*/
     }
 
     #home-3d{
         display: block;
         width: 40vw;
         height: 300px;
-        /**position: absolute;
-        top: 5rem;
-        right: 3rem;**/
     }
 
     h1 {  
