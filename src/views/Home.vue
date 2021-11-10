@@ -293,8 +293,8 @@ export default {
     }
 
     .box{
-        width: 67vw;
-        height: 165px;
+        width: 250px;
+        height: auto;
         border-radius: 10px;
         margin: 2rem auto;
         padding: 0rem 1rem 1rem;
@@ -368,7 +368,7 @@ export default {
 
     .article-box {
         color: #fff;
-        width: 65vw;
+        width: 250px;
         height: 130px;
         border-radius: 10px;
         margin: 2rem auto;
@@ -435,19 +435,9 @@ export default {
         justify-content: center;
         grid-gap: 25px;
     }
-
-    .box{
-        height: 180px;
-        width: 30vw;
-    }
     
     .box, .article-box{
         margin: auto;
-    }
-
-    .article-box {
-        width: 30vw;
-        height: 140px
     }
 
     .box>p, #about>p, #description>p{
@@ -554,17 +544,6 @@ export default {
     .grid-container {
         grid-template-columns: auto auto auto;
         grid-gap: 30px;
-    }
-
-    .box{
-        width: 18vw;
-        height: 220px;
-    }
-
-
-    .article-box{
-        width: 17vw;
-        height: 150px;
     }
 
     h4{
