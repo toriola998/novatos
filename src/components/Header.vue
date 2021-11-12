@@ -82,17 +82,18 @@ a {
 .close-menu {
   margin-right: 0;
 }
-@media (min-width: 700px) {
+@media (max-width: 700px) {
   .links {
     overflow: hidden;
     height: 100vh;
     width: 70vw;
     background-color: #e4e4e4;
-    position: absolute;
+    position: fixed;
     z-index: 10;
     transition: 0.5s transform ease;
     top: 0;
     left: 0;
+    padding: 1rem;
     transform: translateX(-100vw);
   }
   .show-links {
