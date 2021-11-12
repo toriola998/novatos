@@ -1,7 +1,7 @@
 main {   
-    padding: 0.1rem 1rem;
    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-   margin: 2rem 1rem;
+   margin: 2rem 1rem 10rem;
+   padding: 0.1rem 1rem;
 }
 
 p {
@@ -42,12 +42,10 @@ a {
 }
 
  @media screen and (min-width: 980px) {
-
     main{
       width: 55vw;
       display: block;
-      margin-left: auto;
-      margin-right: auto;
+      margin: 0 auto;
     }
 
     h2 {

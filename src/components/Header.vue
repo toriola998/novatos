@@ -6,29 +6,22 @@
     </div>
 
     <div class="links">
-      <!--<img src="close-menu.svg" class="close-menu"/>-->
-      <ul>
-        <li>
-          <a href="/" class="nav-link">Home</a>
-        </li>
-        <li>
-          <a href="#boxes" class="nav-link">Careers</a>
-        </li>
-
-        <li>
-          <a href="#about" class="nav-link">About</a>
-        </li>
-
-        <li>
-          <a href="#articles" class="nav-link">Articles</a>
-        </li>
-
-        <li>
-          <router-link to="/open-source" class="nav-link open-source"
-            >Open source</router-link
-          >
-        </li>
-      </ul>
+      <div>
+        <img src="./../assets/icons/close-icon.svg" class="close-menu" />
+        <div class="nav-div">
+          <ul>
+            <li><a href="/" class="nav-link">Home</a></li>
+            <li><a href="#boxes" class="nav-link">Careers</a></li>
+            <li><a href="#about" class="nav-link">About</a></li>
+            <li><a href="#articles" class="nav-link">Articles</a></li>
+            <li>
+              <router-link to="/open-source" class="nav-link open-source"
+                >Open source</router-link
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
     </div>
   </div>
 </template>
@@ -63,15 +56,12 @@ a {
 #logo {
   font-family: "Stick No Bills", sans-serif;
   color: #e63a18;
-  /**padding: 0.5rem 1rem;**/
   margin: auto 1rem;
-  font-size: 1.5rem;
+  font-size: 2rem;
 }
 
 .menu {
   position: absolute;
-  /*bottom: 0;
-    top: 30px;*/
   right: 40px;
   width: 25px;
   height: 25px;
@@ -80,7 +70,13 @@ a {
 }
 
 .close-menu {
-  margin-right: 0;
+  position: absolute;
+  right: 1rem;
+  top: 1rem;
+}
+
+.links > div {
+  position: relative;
 }
 
 .close-menu {
@@ -105,7 +101,7 @@ a {
 }
 ul {
   list-style-type: none;
-  padding: 14rem 0 0 3rem;
+  padding: 14rem 0 0 0;
 }
 
 li a {

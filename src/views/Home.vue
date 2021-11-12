@@ -11,7 +11,7 @@
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
                         sed do eiusmod tempor incididunt ut labore et 
                         aliqua. Ut enim ad minim veniam, quis nostrud exercitatio</p>
-                        <button>Get Started</button>
+                        <a href="#boxes"><button>Get Started</button></a>
                     </div>
                     <img src="./../assets/illustrations/home.svg" id="home-3d"/>
                 </div>
@@ -220,6 +220,26 @@ export default {
 </script>
 
 <style scoped>
+    /* width */
+    ::-webkit-scrollbar {
+    width: 8px;
+    }
+
+    /* Track */
+    ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+    }
+    
+    /* Handle */
+    ::-webkit-scrollbar-thumb {
+    background: #e63a18; 
+    }
+
+    /* Handle on hover */
+    ::-webkit-scrollbar-thumb:hover {
+    background: #e63a18; 
+    }
+
     header {
         height: 5rem;
         background-color: #e4e4e4;
@@ -273,8 +293,8 @@ export default {
     }
 
     .box{
-        width: 67vw;
-        height: 165px;
+        width: 250px;
+        height: auto;
         border-radius: 10px;
         margin: 2rem auto;
         padding: 0rem 1rem 1rem;
@@ -348,7 +368,7 @@ export default {
 
     .article-box {
         color: #fff;
-        width: 65vw;
+        width: 250px;
         height: 130px;
         border-radius: 10px;
         margin: 2rem auto;
@@ -397,16 +417,12 @@ export default {
         display: flex;
         justify-content: center;
         align-items: center; 
-        /*position: relative;*/
     }
 
     #home-3d{
         display: block;
         width: 40vw;
         height: 300px;
-        /**position: absolute;
-        top: 5rem;
-        right: 3rem;**/
     }
 
     h1 {  
@@ -419,19 +435,9 @@ export default {
         justify-content: center;
         grid-gap: 25px;
     }
-
-    .box{
-        height: 180px;
-        width: 30vw;
-    }
     
     .box, .article-box{
         margin: auto;
-    }
-
-    .article-box {
-        width: 30vw;
-        height: 140px
     }
 
     .box>p, #about>p, #description>p{
@@ -538,17 +544,6 @@ export default {
     .grid-container {
         grid-template-columns: auto auto auto;
         grid-gap: 30px;
-    }
-
-    .box{
-        width: 18vw;
-        height: 220px;
-    }
-
-
-    .article-box{
-        width: 17vw;
-        height: 150px;
     }
 
     h4{

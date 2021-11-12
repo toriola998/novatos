@@ -17,6 +17,7 @@
                 <a href="https://twitter.com/FaidatToriola"><img src="./../assets/footerIcons/twitter.svg"/></a>
                 <a href="https://www.linkedin.com/in/faidat-toriola-7b672021a/"><img src="./../assets/footerIcons/linkedin.svg"/></a>
                 <a href="mailto: faaedah@gmail.com"><img src="./../assets/footerIcons/gmail.svg"/></a>
+                <a href="https://github.com/toriola998"><img src="./../assets/footerIcons/github.svg" id="github"> </a>
             </div>
         </div>
         
@@ -72,11 +73,17 @@
     }
 
     #media-icons>a>img {
-        width: 20px;
-        height: 20px;
+        width: 18px;
+        height: 18px;
         margin-right: 0.4rem ;
     }
 
+    #github {
+        width: 60px;
+        height: 60px;
+    }
+
+   
     #footer-links {
         margin-top: 2rem;
     }
@@ -92,7 +99,7 @@
         align-items: center;
     }
 
-    footer-links {
+    #footer-links {
         margin-top: unset;
     }
 
@@ -100,5 +107,4 @@
         font-size: 14px;
     }
 }
-
 </style>
