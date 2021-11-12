@@ -1,27 +1,29 @@
 <template>
-    <div id="header">
-        <div class="flex-item">
-            <router-link to="/"><h4 id="logo">novatos</h4></router-link>
-            <img src="./../assets/icons/menu.svg" class="menu" />
-        </div>
-
-        <div class="links">
-            <div>
-                <img src="./../assets/icons/close-icon.svg" class="close-menu"/>
-                <div class="nav-div">
-                    <ul>
-                        <li><a href="/" class="nav-link">Home</a></li>
-                        <li><a href="#boxes" class="nav-link">Careers</a></li>
-                        <li><a href="#about" class="nav-link">About</a></li>
-                        <li><a href="#articles" class="nav-link">Articles</a></li>
-                        <li>
-                            <router-link to="/open-source" class="nav-link open-source">Open source</router-link>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
+  <div id="header">
+    <div class="flex-item">
+      <router-link to="/"><h4 id="logo">novatos</h4></router-link>
+      <img src="./../assets/icons/menu.svg" class="menu" />
     </div>
+
+    <div class="links">
+      <div>
+        <img src="./../assets/icons/close-icon.svg" class="close-menu" />
+        <div class="nav-div">
+          <ul>
+            <li><a href="/" class="nav-link">Home</a></li>
+            <li><a href="#boxes" class="nav-link">Careers</a></li>
+            <li><a href="#about" class="nav-link">About</a></li>
+            <li><a href="#articles" class="nav-link">Articles</a></li>
+            <li>
+              <router-link to="/open-source" class="nav-link open-source"
+                >Open source</router-link
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
 </template>
 
 <script>
@@ -70,32 +72,34 @@ a {
 .close-menu {
   position: absolute;
   right: 1rem;
-  top: 1rem
+  top: 1rem;
 }
 
 .links > div {
   position: relative;
 }
 
-.links {
-  overflow: hidden;
-  height: 100vh;
-  width: 60vw;
-  background-color: #e1e1e1;
-  position: fixed;
-  z-index: 10;
-  transition: 0.5s transform ease;
-  top: 0;
-  left: 0;
-  transform: translateX(-100vw);
+.close-menu {
+  margin-right: 0;
 }
-
-.nav-div {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+@media (max-width: 700px) {
+  .links {
+    overflow: hidden;
+    height: 100vh;
+    width: 70vw;
+    background-color: #e4e4e4;
+    position: fixed;
+    z-index: 10;
+    transition: 0.5s transform ease;
+    top: 0;
+    left: 0;
+    padding: 1rem;
+    transform: translateX(-100vw);
+  }
+  .show-links {
+    transform: translateX(0);
+  }
 }
-
 ul {
   list-style-type: none;
   padding: 14rem 0 0 0;
@@ -115,10 +119,6 @@ li > a:hover {
   border-bottom: 2px solid #e63a18;
 }
 
-.show-links {
-  transform: translateX(0);
-}
-
 header {
   height: 10vw;
 }
@@ -131,7 +131,9 @@ header {
   .links {
     overflow: visible;
   }
-
+  .close-menu {
+    display: none;
+  }
   ul {
     display: flex;
     justify-content: end;
